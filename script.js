@@ -13,6 +13,7 @@ function initPage(element) {
 function createCard(element) {
 
     const cardTemplate = `
+    
     <span class="name-card">#NAME</span>
     <button class="information-btn" onclick="showOrHide()">show more
         <img style="height:16px;" src="./assets/expand_more_FILL0_wght400_GRAD0_opsz48.svg" alt="">

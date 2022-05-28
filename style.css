@@ -5,10 +5,13 @@ body {
     margin: 0px;
     height: 100vh;
     width: 100vw;
+    font-family: 'Cinzel', serif;
+    background-image: url('./assets/sfondo.jpg');
+    background-size:cover;
 }
 
 .nav-menu {
-    background-image: linear-gradient(90deg, #9e0b0f, #ce1016);
+    background-image: linear-gradient(90deg, #5a0d0f, #ce1016);
     ;
 }
 
@@ -64,24 +67,45 @@ body {
 }
 
 .info-card {
-    border: solid black 1px;
-    margin: 8px;
-    background: #9e0b0f;
+    margin: 20px;
+    -webkit-border-radius: 60px;
+border-radius: 16px;
+background: #ffffff;
+-webkit-box-shadow: 9px 9px 18px #dbdbdb, -9px -9px 18px #ffffff;
+box-shadow: 9px 9px 18px #dbdbdb, -9px -9px 18px #ffffff;
+}
+
+.races-png{
+  width: 100%;
+}
+
+.logo-png{
+  width: 150px;
+  z-index: 10;
 }
 
 .name-card{
     display: inline-block;
     padding: 16px;
+    font-size: larger;
 }
 
 .info-card button{
+    display: flex;
+    align-items: center;
     float: right;
-    margin: 12px;
+    margin-top: 18px;
+    margin-right: 10px;
     border: none;
     background:transparent;
+    font-family: 'Cinzel', serif;
+    color: #ce1016;
+    font-size: small;
 }
 
 .desc-container{
-    background: #e7e7db;
-    padding: 8px;
+    background: #ff000027;
+    font-size: small;
+    padding: 16px;
+    border-radius: 0px 0px 16px 16px;
 }
